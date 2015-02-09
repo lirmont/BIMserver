@@ -25,6 +25,7 @@ public class ProjectInfo {
 	private double z;
 	private double directionAngle;
 	private String authorName;
+	public long revisionId;
 
 	public String getName() {
 		return name;
@@ -80,5 +81,13 @@ public class ProjectInfo {
 
 	public void setAuthorName(String authorName) {
 		this.authorName = authorName;
+	}
+
+	public long getRevisionId() {
+		return revisionId;
+	}
+
+	public void setRevisionId(long revisionId) {
+		this.revisionId = revisionId;
 	}
 }

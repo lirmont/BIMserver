@@ -150,6 +150,7 @@ public class SerializerFactory {
 								projectInfo.setY(52.3700);
 							}
 							projectInfo.setAuthorName(username);
+							projectInfo.setRevisionId(downloadParameters.getRoid());
 							serializer.init(model, projectInfo, pluginManager, renderEnginePlugin, model.getPackageMetaData(), true);
 							return serializer;
 						} catch (NullPointerException e) {

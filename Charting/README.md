@@ -93,3 +93,9 @@ Individual IFC material objects are related to a running summation of the volume
 ![Level of Detail Metrics](./readme%20images/Level%20of%20Detail%20Metrics.png?raw=true)
 
 IFC data is inspected to yield data relating to how many objects and triangles exist per cubic meter in a given project.
+
+#### IFC Growth by Revision
+
+![Growth by Revision](./readme%20images/Growth%20by%20Revision.png?raw=true)
+
+IFC revisions are inspected to yield the change in size across the following 4 categories: properties, relationships, objects, and everything else.
